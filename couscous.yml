@@ -1,0 +1,31 @@
+template:
+    #url: https://github.com/CouscousPHP/Template-Light
+    directory: docs/templates/
+
+exclude:
+    - web/docs
+    - vendor
+
+github:
+    user: hess3077
+    repo: devops
+
+title: Devops
+subTitle: - Documentation technique.
+
+baseUrl: http://localhost:1094
+
+menu:
+    sections:
+        main:
+            name:
+            items:
+                home:
+                    text: "<i class='fa fa-home'></i> Accueil"
+                    relativeUrl: index.html
+                install:
+                    text: "<i class='fa fa-gears'></i> Installation"
+                    relativeUrl: docs/install.html
+                command:
+                    text: "<i class='fa fa-info-circle'></i> Commandes utiles"
+                    relativeUrl: docs/command.html

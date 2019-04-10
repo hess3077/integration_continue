@@ -1,0 +1,5 @@
+# This file is auto-generated during the composer install
+parameters:
+    secret: you_need_to_change_it
+    github_client_id: hess3077
+    github_client_secret: hess3077

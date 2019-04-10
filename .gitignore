@@ -1,0 +1,17 @@
+.couscous
+vendor/*
+tmp/
+current/
+web/uploads
+web/swagger
+web/docs/
+swagger.json
+swagger-privaye.json
+.env
+.couscous
+/var/*
+!/var/cache
+/var/cache/*
+!/var/logs
+/var/logs/*
+*~
